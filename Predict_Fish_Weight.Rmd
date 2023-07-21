@@ -160,4 +160,10 @@ The residual standard error is 37.58. The adjusted r squared is 0.821. The p val
 
 ### Best Two regressor model
 
+```{r}
+Roachbest <- lm(Weight~Length1+Length3, data = Roach)
+summary.lm(Roachbest)
+```
+
+
 ## Final Summary Statements
