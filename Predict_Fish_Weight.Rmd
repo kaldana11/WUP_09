@@ -169,4 +169,6 @@ The residual standard error is 36.83. The adjusted r squared is 0.8281. The p va
 
 ## Final Summary Statements
 
+We found out the r squared for pike,perch, and roach. Each one had its own model where we could see the subset size. Roach had the smallest r squared value which is 0.8281. The second smallest is perch with 0.94 as its adjusted r squared value. The highest value was pike with its adjusted r squared being 0.9794. Their residual standard errors also help the r squares being compared.
+
 
