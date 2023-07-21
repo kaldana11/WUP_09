@@ -70,9 +70,18 @@ library(car)
 subsets(regsubsets.out,statistic="adjr2",legend="topright",main="Adjusted R^2")
 ```
 
-Best two regression models are height and width.
 
 ### Best Two regressor model
+
+Best two regression models are height and width.
+
+
+```{r}
+Perchmodel <- lm(Weight~Height+Width, data = Perch)
+summary.lm(Perchmodel)
+```
+
+
 
 
 ## Pike
